@@ -22,14 +22,14 @@ body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 /* Layout */
 .wrapper {
   height: 100%;
   position: relative;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 .wrapper:before,
 .wrapper:after {

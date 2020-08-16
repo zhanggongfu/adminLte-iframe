@@ -2,8 +2,12 @@
 var $taskContentInner = null;
 var $content;
 var $navWraper  = $("#task-content");
+window.onresize = function(){
+   var bodyHeight = window.innerHeight-141;
+    $('.page-content').height(bodyHeight); 
+}
 $(function(){
-    var bodyHeight = $(document.body).height()-100;
+    var bodyHeight = window.innerHeight-141;
     $('.page-content').height(bodyHeight);
 	$taskContentInner = $("#task-content-inner");
 	$content         = $("#content");
