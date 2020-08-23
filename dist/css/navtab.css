@@ -15,7 +15,7 @@
   float:left;
 }
 #task-content{
-  width: 88%;
+  width: 83%;
   height: 40px;
   display: inline-block;
   position: relative;
@@ -63,6 +63,9 @@
   padding-right: 29px;
   
 }
+.nav-tab-box a{
+  color: #666;
+}
 .menu-tabs>.nav-tabs-header .close-tab{
   font-size: 10px;
     position: absolute;
@@ -79,7 +82,7 @@
     content: "\f057"
 }
 
-.icon-prev,.icon-next,.icon-down{
+.icon-prev,.icon-next,.icon-down,.icon-logout{
  	display: inline-block;
     border-right: 1px solid #f6f6f6;
     width: 4%;
@@ -89,12 +92,19 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+.icon-down{
+  width: 5%;
+}
+.icon-logout{
+  width: 4%;
+}
 
 .close-iframe-box{
   position: absolute;
   top: 40px;
-  right: 3px;
+  right: 4%;
   background-color: #fff;
+  border:1px solid #eee;
   display: none;
   padding-top:5px;
   padding-bottom: 5px;
@@ -102,7 +112,7 @@
 .close-iframe-box div{
   height: 32px;
   line-height: 32px;
-  padding:2px 20px 0 20px;
+  padding:2px 25px 0 25px;
 }
 
 
